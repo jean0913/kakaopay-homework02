@@ -5,14 +5,12 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 터미널 or cmd 통해 프로젝트 폴더로 접근하여 아래의 명령어를 실행해 주세요.
 npm install
 
-# serve with hot reload at localhost:8080
+# install이 모두 완료된후 아래의 명령어를 실행해 주세요.(localhost:8080 새브라우져가 열립니다.)
 npm run dev
 
-# build for production with minification
-npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

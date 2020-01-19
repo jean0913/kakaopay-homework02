@@ -4,7 +4,7 @@
     <dt>생일을 알려주세요.</dt>
     <dd>
       <div class="sel-wrap year">
-        <select v-model="selected">
+        <select>
           <option value="2000년" selected>2000년</option>
           <option>1999년</option>
           <option>1998년</option>
@@ -14,7 +14,7 @@
         </select>
       </div>
       <div class="sel-wrap">
-        <select v-model="selected">
+        <select>
           <option selected value="01월">01월</option>
           <option>02월</option>
           <option>03월</option>
@@ -23,7 +23,7 @@
         </select>
       </div>
       <div class="sel-wrap">
-    <select v-model="selected">
+    <select>
         <option selected value="01일">01일</option>
         <option>02일</option>
         <option>03일</option>
@@ -37,13 +37,13 @@
     <dt>연락처를 알려주세요.</dt>
     <dd>
       <div class="sel-wrap">
-      <select v-model="selected">
+      <select>
         <option selected value="010">010</option>
         <option>011</option>
         <option>017</option>
       </select>
       </div>
-      <input type="text" placeholder="">
+      <input type="text" placeholder="'-' 를 빼고 입력해주세요">
       <a href="#">인증</a>
     </dd>
   </dl>

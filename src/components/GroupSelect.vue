@@ -62,7 +62,7 @@
 <style>
 .sel-info {width:100%;}
 .sel-info select {position:relative;width:100%;text-indent:5px;height:30px;box-shadow:none;background:none;border:none;background-image: none;-webkit-appearance: none;-moz-appearance: none;appearance:none;border-radius: 0px;color:#000;}
-.sel-info select option{color:#000;text-indent:5px;border-color:#000;}
+.sel-info select option{color:#000;border-color:#000;}/*모바일 옵션창은 system이여서 따로 신경쓰지 않았습니다*/
 .sel-info dt{color:#000;font-size:13px;font-weight:bold;}
 .sel-info dd{overflow:hidden;margin-top:10px;border-bottom:1px solid #e5e5e5;}
 .sel-info .sel-wrap{position:relative;float:left;}

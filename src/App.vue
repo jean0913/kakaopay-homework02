@@ -1,11 +1,13 @@
 <template>
   <div id="app">
+    <form  v-on:submit="sendPost" >
     <MainTitle></MainTitle>
     <InputList></InputList>
     <BaseTab></BaseTab>
     <GroupSelect></GroupSelect>
     <AgreeCheck></AgreeCheck>
     <MainButton></MainButton>
+  </form>
   </div>
 </template>
 
@@ -25,7 +27,20 @@ export default {
     'GroupSelect' : GroupSelect,
     'AgreeCheck' : AgreeCheck,
     'MainButton' : MainButton
-  }
+  },
+  data:{
+     id: "",
+     pw: "",
+     gender: "",
+     birth:"",
+     tel:"",
+     agree:''
+ },
+ methods: {
+     sendPost: function(event){
+         
+     }
+ }
 }
 </script>
 <style>

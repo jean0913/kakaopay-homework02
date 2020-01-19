@@ -1,12 +1,16 @@
 <template>
   <ul class="tab-list">
-    <li><a href="#">남자</a></li>
-    <li class="on"><a href="#">여자</a></li>
+    <li><a href="#" v-on:click="gender==male">남자</a></li>
+    <li class="on"><a href="#" v-on:click="gender==female" >여자</a></li>
   </ul>
 </template>
 <script>
   export default{
-
+    data() {
+        return {
+          gender:''
+        }
+    }
   }
 </script>
 <style>

@@ -1,7 +1,7 @@
 <template>
 <div class="agree-wrap">
   <span class="chk_wrap">
-    <input type="checkbox" id="chk">
+    <input type="checkbox" id="chk" v-model="checked">
   <label for="chk"></label>
   </span>
   <span class="txt">모든 약관 내용에 동의 합니다.</span>
@@ -9,7 +9,11 @@
 </template>
 <script>
   export default{
-
+    data() {
+  		return {
+  			checked: []
+  		}
+	 }
   }
 </script>
 <style>
